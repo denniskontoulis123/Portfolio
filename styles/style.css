@@ -1,0 +1,61 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #959b9a; 
+}
+
+header {
+    background-color: #a78bfa; 
+    color: #f8f9fa;
+}
+
+.bg-light {
+    background-color: #959b9a !important; 
+}
+
+/* Set the background color for the "About Me" section */
+#about, 
+/* Apply the same background color to the "Contact" section */
+#contact {
+    background-color: #c9a9bb; 
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer-text, footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #a78bfa; 
+    color: #333333;
+}
+
+.navbar-brand, .nav-link {
+    color: #f8f9fa !important;
+}
+
+.btn-primary {
+    background-color: #f472b6;
+    border-color: #f472b6;
+}
+
+.btn-primary:hover {
+    background-color: #e11d74;
+    border-color: #e11d74;
+}
+
+.form-control, .form-label {
+    border-color: #ecc94b;
+}
+
+.card {
+    border-color: #f472b6;
+    background-color: #c9a9bb; 
+}
+
+.modal-content, .dropdown-menu, .alert, .popover-header, .popover-body {
+    background-color: #959b9a;
+}

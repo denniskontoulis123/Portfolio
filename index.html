@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dennis Kontoulis - Web Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation Bar -->
+<header class="mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="imgs\signature.png" width="150" height="50"></img></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="portfolio-section bg-light text-center text-lg-start">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-6">
+                <h1 class="display-4">Hey there, I'm <span class="text-info">Dennis Kontoulis</span></h1>
+                <p class="lead">A 25 year old selfstarter and newly minted Full Stack Web Developer.</p>
+                <a href="#work" class="btn btn-primary btn-lg">View My Work</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="imgs\meheadshot.png" height="500" width="500"></img>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="portfolio-section">
+    <br><br>
+    <div class="container">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p>Howdy! My name is Dennis; I am a 25 year old from Windsor, Ontario, Canada. My family comes from Greece, but don't ask me to speak it, because the only languages I know belong to programmers (and English)! I graduated from St Clair College's Web Development and Internet Applications program, specializing in MVC frameworks and their parent languages; <strong>PHP, JavaScript, C# and so on</strong>.</p>
+                <p>I have years upon years of customer service experience, from fast food to Telecommunications. I learn fast and I'm easy to work with, and above everything I am highly motivated. <strong>Want to know more? Then...</strong></p>
+                <!-- Resume Download Button -->
+                <div class="text-center mt-4">
+                    <a href="resume\Master Resume - Dennis K - 2024.pdf" class="btn btn-primary" download="Dennis_Kontoulis_Resume.pdf">Download My Resume!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</section>
+
+
+<!-- Work Section -->
+<section id="work" class="portfolio-section bg-light">
+    <div class="container">
+        <br/>
+        <h2 class="text-center mb-4">My Work</h2>
+        <div class="row g-4">
+            <!-- Project Card 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imgs\esportsontario.png" class="card-img-top" alt="eSports Ontario News">
+                    <div class="card-body">
+                        <h5 class="card-title">eSports Ontario News</h5>
+                        <p class="card-text">eSports Ontario News was built as a student project in my final semester at St Clair.  It serves as an example for my prowess with PHP, utilizing database relationships to create a newsletter for eSports programs in Ontario.</p>
+                        <a href="https://dkontoulis.scweb.ca/esportsOntarioNews/" class="btn btn-primary">Click to Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imgs\chirp.png" class="card-img-top" alt="Project Name">
+                    <div class="card-body">
+                        <h5 class="card-title">Chirp</h5>
+                        <p class="card-text">Chirp was a final project in my second semester of college; a faux web app akin to Tweetdeck, designed around the concept of accessing deeper analytics for Twitter.</p><br/>
+                        <a href="project-files\chirp.zip" class="btn btn-primary">Click to Download</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="imgs\mortgagehomes.jpg" class="card-img-top" alt="Project Name">
+                    <div class="card-body">
+                        <h5 class="card-title">SuperHouse</h5>
+                        <p class="card-text">SuperHouse was also a final project- though a relatively basic one -that dealt specifically with the application of Bootstrap under a time constraint.  Various pieces of Bootstrap were adjusted via JavaScript.</p>
+                        <a href="project-files\superhouse.zip" class="btn btn-primary">Click to Download</a>
+                    </div>
+                </div>
+            </div></div><br/>
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-4 d-flex">
+                    <div class="card mx-auto">
+                        <img src="imgs\poghati.gif" class="card-img-top img-fluid" alt="Poghati Hotel and Suites" style="object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Poghati Hotel and Suites</h5>
+                            <p class="card-text">Poghati Hotel and Suites was the penultimate project of my time in St Clair's Web Development team. I worked on a team with four others primarily as a group lead, looking to keep everyone on task and keeping documentation up to snuff. I also designed the Meal Plans page- a set of cards dedicated to the various foods the hotel has to offer.</p>
+                            <a href="#" class="btn btn-primary">Click to Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- More project cards -->
+        </div>
+    </div>
+    <br/></br>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="portfolio-section">
+    <br/>
+    <div class="container">
+        <h2 class="text-center mb-4">Employ OR Contact Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br/></br>
+</section>
+
+<!-- FOOTER -->
+<footer class="mt-auto py-3">
+    <div class="container d-flex justify-content-between">
+        <div class="d-flex align-items-center">
+            <a href="/" class="text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="text-muted">© 2024 Dennis Kontoulis</span>
+        </div>
+
+        <ul class="nav justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><img src="imgs\xicon.png" height="25" width="25"></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><img src="imgs\instagram.png" height="25" width="25"></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><img src="imgs\github.png" height="25" width="25"></a></li>
+            <!-- Other icons -->
+        </ul>
+    </div>
+</footer>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
